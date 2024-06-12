@@ -38,8 +38,8 @@ function Navbar() {
 
                     <div className='w-100 text-center'>
                         <div className='logo'>
-                            {/* <img className='img-logo' src='../assets/bg.png' alt=''></img> */}
-                            <img className='img-logo' src='../assets/logo.jpg' alt=''></img>
+                            <img className='img-logo' src='../assets/logo-5.png' alt=''></img>
+                            {/* <img className='img-logo' src='../assets/logo.jpg' alt=''></img> */}
                         </div>
                     </div>
                 </div>
