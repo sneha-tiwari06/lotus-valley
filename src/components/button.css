@@ -54,7 +54,7 @@
 
 
 
-.button-85-1:before {
+.tour-button:before {
     content: "";
     background: linear-gradient(45deg,
             #ff0000,
@@ -94,7 +94,7 @@
     }
 }
 
-.button-85-1:after {
+.tour-button:after {
     z-index: -1;
     content: "";
     position: absolute;

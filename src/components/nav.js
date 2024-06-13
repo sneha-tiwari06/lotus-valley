@@ -35,10 +35,10 @@ function Nav() {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
-                // autoplay={{
-                //     delay: 5000,
-                //     disableOnInteraction: false,
-                // }}
+                autoplay={{
+                    delay: 5000,
+                    disableOnInteraction: false,
+                }}
                 modules={[Autoplay]}
                 pagination={{ clickable: true }}
 
@@ -49,7 +49,7 @@ function Nav() {
                         <img className='banner-img' src='../assets/benner (1).jpg' alt='Banner' />
                         <div className='overlay'>
 
-                            <button class="button-85-1" >Virtual Tour</button>
+                            <button class="tour-button" >Virtual Tour</button>
                             <button class="career-button" >Career</button>
 
                         </div>
@@ -64,7 +64,7 @@ function Nav() {
                         <img className='banner-img' src='../assets/benner (2).jpg' alt='Banner' />
                         <div className='overlay'>
 
-                            <button class="button-85-1" >Virtual Tour</button>
+                            <button class="tour-button" >Virtual Tour</button>
                             <button class="career-button" >Career</button>
 
                         </div>
@@ -79,7 +79,7 @@ function Nav() {
                         <img className='banner-img' src='../assets/benner (3).jpg' alt='Banner' />
                         <div className='overlay'>
 
-                            <button class="button-85-1" >Virtual Tour</button>
+                            <button class="tour-button" >Virtual Tour</button>
                             <button class="career-button">Career</button>
 
                         </div>
@@ -94,7 +94,7 @@ function Nav() {
                         <img className='banner-img' src='../assets/benner (4).jpg' alt='Banner' />
                         <div className='overlay'>
 
-                            <button class="button-85-1" >Virtual Tour</button>
+                            <button class="tour-button" >Virtual Tour</button>
                             <button class="career-button" >Career</button>
 
                         </div>
@@ -109,7 +109,7 @@ function Nav() {
                         <img className='banner-img' src='../assets/banner4.jpg' alt='Banner' />
                         <div className='overlay'>
 
-                            <button class="button-85-1" >Virtual Tour</button>
+                            <button class="tour-button" >Virtual Tour</button>
                             <button class="career-button" >Career</button>
 
                         </div>
