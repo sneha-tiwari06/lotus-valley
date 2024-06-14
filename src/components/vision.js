@@ -1,45 +1,71 @@
 import React from 'react';
 
-function Vision() {
+const Vision = () => {
   return (
-    <div className='vision'>
-      <div className='sub-vision'>
-        <div className='vision-img'>
-          <img src='../assets/vision (5).jpg' alt='vision'></img>
-          <p className='bottom-text'>Our Vision</p>
-          <p className='hover-text'>The school aims at empowering each child with a deep, broad, and strong fundament of knowledge and life skills. We firmly believe in equipping our learners with 21st Century Skills such as Critical and Creative Thinking, Character Building. </p>
-        </div>
+    <div className="stats-container">
+      <div className="stat-box">
+        <div className="icon">🏞️</div>
+        <div className="stat-number">7</div>
+        <div className="stat-label">Acres State-of-the-art Sports Campus</div>
       </div>
-      <div className='sub-vision'>
-        <div className='vision-img'>
-          <img src='../assets/vision4.jpg' alt='mission'></img>
-          <p className='bottom-text'>Our Mission</p>
-          <p className='hover-text'>Our mission is to develop good human beings, capable of independent rational thought and action, with compassion and humaneness, with courage and resilience, with scientific temper and creative groundbreaking imagination.</p>
-        </div>
+      <div className="stat-box">
+        <div className="icon">🎓</div>
+        <div className="stat-number">17:1</div>
+        <div className="stat-label">Student-Teacher Ratio</div>
       </div>
-      <div className='sub-vision'>
-        <div className='vision-img'>
-          <img src='../assets/vision (3).jpg' alt='School Emblem'></img>
-          <p className='bottom-text'>School Emblem</p>
-          <p className='hover-text'>The School Motto ‘Arise! Awake! And Stop Not till The Goal Is Reached’ is the clarion call for scholars at Lotus Valley International School Gurugram. We encourage our learners to discover their passion and decide their goals in life.</p>
-        </div>
+      <div className="stat-box">
+        <div className="icon">🏟️</div>
+        <div className="stat-number">14</div>
+        <div className="stat-label">Sports Activities</div>
       </div>
-      <div className='sub-vision'>
-        <div className='vision-img'>
-          <img src='../assets/vision (2).jpg' alt='School Motto'></img>
-          <p className='bottom-text'>School Motto</p>
-          <p className='hover-text'>The School Motto ‘Arise! Awake! And Stop Not till The Goal Is Reached’ is the clarion call for scholars at Lotus Valley International School Gurugram. We encourage our learners to discover their passion and decide their goals in life.</p>
-        </div>
+      <div className="stat-box">
+        <div className="icon">🏫</div>
+        <div className="stat-number">40</div>
+        <div className="stat-label">Clubs</div>
       </div>
-      <div className='sub-vision'>
-        <div className='vision-img'>
-          <img src='../assets/vision (1).jpg' alt='Philosophy'></img>
-          <p className='bottom-text'>Avant - Garde Philosophy</p>
-          <p className='hover-text'>We believe that every child is unique. Each one has a different pace of learning, which needs to be discovered by the school. Therefore, Lotus Valley International School strives to understand and fulfil the individual needs of its learners.</p>
-        </div>
+      <div className="stat-box">
+        <div className="icon">👨‍👩‍👧‍👦</div>
+        <div className="stat-number">3200</div>
+        <div className="stat-label">Students</div>
       </div>
+
+      <style jsx>{`
+        .stats-container {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          padding: 20px;
+          background-color: #f0f0f0;
+        }
+        .stat-box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+          background-color: #1e73be;
+          color: white;
+          border-radius: 8px;
+          width: 150px;
+          text-align: center;
+        }
+        .stat-box:nth-child(2n) {
+          background-color: #4caf50;
+        }
+        .icon {
+          font-size: 2em;
+          margin-bottom: 10px;
+        }
+        .stat-number {
+          font-size: 2em;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+        .stat-label {
+          font-size: 1em;
+        }
+      `}</style>
     </div>
   );
-}
+};
 
 export default Vision;
